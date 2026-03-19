@@ -1,0 +1,32 @@
+body{
+  font-family: Arial;
+  margin-left: 6px;
+}
+
+nav ul{
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li{
+  display: inline;
+  margin-right: 10 px;
+  justify-content: space-evenly
+}
+
+nav ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a{
+  margin-right: 340 px;
+}
+
+img{
+  width: 300px; 
+}
+
