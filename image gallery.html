@@ -1,118 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Simple Image Gallery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-            background-color: #FFF3B0; /* soft yellow background */
-        }
+    <head>
+        <title>Simple Image Gallery</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                    padding: 20px;
+                    background-color: #FFF3B0; /* soft yellow background */
+                }
 
-        h1 {
-            font-family: 'Georgia', serif;
-            font-size: 40px;
-            margin-bottom: 20px;
-        }
+                h1 {
+                    font-family: 'Georgia', serif;
+                    font-size: 40px;
+                    margin-bottom: 20px;
+                }
 
-        h2 {
-            font-family: 'Tahoma', sans-serif;
-            font-size: 28px;
-            margin-bottom: 15px;
-        }
+                h2 {
+                    font-family: 'Tahoma', sans-serif;
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                }
 
-        h3 {
-            font-family: 'Verdana', sans-serif;
-            font-size: 22px;
-            margin-bottom: 10px;
-        }
+                h3 {
+                    font-family: 'Verdana', sans-serif;
+                    font-size: 22px;
+                    margin-bottom: 10px;
+                }
 
-        
-        h3 + img {
-            width: 120px;
-            height: auto;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
+                
+                h3 + img {
+                    width: 120px;
+                    height: auto;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+                }
 
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-        }
+                .gallery {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    justify-content: center;
+                }
 
-        .gallery img {
-            width: 200px;
-            height: auto;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
+                .gallery img {
+                    width: 200px;
+                    height: auto;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
 
+                nav ul{
+                     background-color: rgb(224, 229, 91);
+                     padding: 10px;
+                     display: flex;
+                     justify-content: space-around;
+                }
+            </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">My Culture</a></li>
+                    <li><a href="interests.html">My Interests</a></li>
+                    <li><a href="family.html">My family</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main> 
+            <h1>Vietnam's Gallery</h1>
 
-<h1>Vietnam's Gallery</h1>
+            <h2>1.Vietnamese traditional food</h2>
 
-<h2>1.Vietnamese traditional food</h2>
+            <div class="gallery">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz7Xbg0XcAHQ4kQYDz7x8EDTwyTNLxrjrWNA&s" alt="Phở">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcEvFK4Ykw0rylt3Mc_4VU3M8CxEDfY590nA&s" alt="Cơm Tấm">
+                <img src="https://shef.com/homemade-food/wp-content/uploads/vietnamese-french-baguette-banh-mi-bbq-pork-lemongrass-beef-pickled-vegetables.jpg" alt="Bánh Mì">
+                <img src="https://takestwoeggs.com/wp-content/uploads/2024/10/Bun-Bo-Hue-Spicy-Vietnamese-Beef-Noodle-Soup-7.jpg" alt="Bún Bò">
+                <img src="https://static.vinwonders.com/production/bun-dau-mam-tom-da-lat-1.jpeg" alt="Bún đậu mắm tôm">
+            </div>
 
-<div class="gallery">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz7Xbg0XcAHQ4kQYDz7x8EDTwyTNLxrjrWNA&s" alt="Phở">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcEvFK4Ykw0rylt3Mc_4VU3M8CxEDfY590nA&s" alt="Cơm Tấm">
-    <img src="https://shef.com/homemade-food/wp-content/uploads/vietnamese-french-baguette-banh-mi-bbq-pork-lemongrass-beef-pickled-vegetables.jpg" alt="Bánh Mì">
-    <img src="https://takestwoeggs.com/wp-content/uploads/2024/10/Bun-Bo-Hue-Spicy-Vietnamese-Beef-Noodle-Soup-7.jpg" alt="Bún Bò">
-    <img src="https://static.vinwonders.com/production/bun-dau-mam-tom-da-lat-1.jpeg" alt="Bún đậu mắm tôm">
-</div>
+            <h3>2.Vietnamese culture</h3>
 
-<h3>2.Vietnamese culture</h3>
+            <div class="gallery"></div>
+                <img src="https://quyennguyen.vn/wp-content/uploads/2022/11/ao-dai-nam-2022-ADNT39-1.jpg" style="width:160px; height:auto;" alt="Aó dài">
+                <img src="https://www.travelvietnam.com/images/photos/vietnam/fan-dance-vietnam.jpg" style="width:190px; height:200px;" alt="Muá nón">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuR8N8cZR9out9HVl-AWcmHn5qL4RncwwOw&s" alt="New Year">
+                <img src="https://images.vietnamtourism.gov.vn/en/images/2023/8_ky_quan.jpg" style="width:267px; height:160px;" alt="Vietnamese heritage">
+            </div>
 
-<div class="gallery"></div>
-     <img src="https://quyennguyen.vn/wp-content/uploads/2022/11/ao-dai-nam-2022-ADNT39-1.jpg" style="width:160px; height:auto;" alt="Aó dài">
-     <img src="https://www.travelvietnam.com/images/photos/vietnam/fan-dance-vietnam.jpg" style="width:190px; height:200px;" alt="Muá nón">
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuR8N8cZR9out9HVl-AWcmHn5qL4RncwwOw&s" alt="New Year">
-     <img src="https://images.vietnamtourism.gov.vn/en/images/2023/8_ky_quan.jpg" style="width:267px; height:160px;" alt="Vietnamese heritage">
-</div>
+            <h3>3.Vietnam war in history.</h3>
 
-<h3>3.Vietnam war in history.</h3>
+            <div class="gallery"></div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT75mO9Pb--BeJohHTIOZVJGeHdDgsv4VdQSg&s" alt="Vietnam defeated Chinese">
+                <img src="https://www.vietvisiontravel.com/wp-content/uploads/2016/04/the-first-war-against-mongol-invaders-tran-hung-dao-general.jpg" style="height:200px;" alt="Vietnam defeated Mongolia 3 times">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLVzTfrPKnQ-n-xaoYIFpB4o-V3rZ4JofoQ&s" alt="Vietnam defeated France">
+                <img src="https://i.redd.it/3aec5au0daa81.jpg" style="width:325px; height:200px" alt="Japan abused Vietnam">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpOvUOk2s3d8juecbl1RK_Ytu5908Tx9CGQ&s" alt="Vietnam made Japan surrender">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUn0bffmCkMv8i0AGsyEj7tL1k6R8AxID2Sg&s" alt="South Vietnam and unifying the country under Communist rule.">
 
-<div class="gallery"></div>
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT75mO9Pb--BeJohHTIOZVJGeHdDgsv4VdQSg&s" alt="Vietnam defeated Chinese">
-     <img src="https://www.vietvisiontravel.com/wp-content/uploads/2016/04/the-first-war-against-mongol-invaders-tran-hung-dao-general.jpg" style="height:200px;" alt="Vietnam defeated Mongolia 3 times">
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLVzTfrPKnQ-n-xaoYIFpB4o-V3rZ4JofoQ&s" alt="Vietnam defeated France">
-     <img src="https://i.redd.it/3aec5au0daa81.jpg" style="width:325px; height:200px" alt="Japan abused Vietnam">
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpOvUOk2s3d8juecbl1RK_Ytu5908Tx9CGQ&s" alt="Vietnam made Japan surrender">
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUn0bffmCkMv8i0AGsyEj7tL1k6R8AxID2Sg&s" alt="South Vietnam and unifying the country under Communist rule.">
+            <h3>3. Top 5 Landmarks in Vietnam, you must visit.</h3>
 
- <h3>3. Top 5 Landmarks in Vietnam, you must visit.</h3>
-
- <div class="gallery"></div>
-      <img src="https://saigonadventure.com/wp-content/uploads/2025/05/ha-long-bay-vietnam-tour.jpg" style="width:400px" alt="Ha Long Bay">
-      <img src="https://static.vinwonders.com/production/Hoi-An-has-received-many-prestigious-awards.jpg" style="width:400px" alt="Hoi An ancient town">
-      <img src="https://phongnhacave.org/wp-content/uploads/2023/01/hang-son-doong.jpg" style="width:400px" alt="hang-son-doong">
-      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/9c/85/60/caption.jpg?w=1200&h=-1&s=1" style="width:400px" alt="Golden Bridge">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD2MDuC1kTtPk2KMqIcw3TOLiv1zxKpxlnNA&s" style="width:400px" alt="Hue Imperial City">
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+            <div class="gallery"></div>
+                <img src="https://saigonadventure.com/wp-content/uploads/2025/05/ha-long-bay-vietnam-tour.jpg" style="width:400px" alt="Ha Long Bay">
+                <img src="https://static.vinwonders.com/production/Hoi-An-has-received-many-prestigious-awards.jpg" style="width:400px" alt="Hoi An ancient town">
+                <img src="https://phongnhacave.org/wp-content/uploads/2023/01/hang-son-doong.jpg" style="width:400px" alt="hang-son-doong">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/9c/85/60/caption.jpg?w=1200&h=-1&s=1" style="width:400px" alt="Golden Bridge">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD2MDuC1kTtPk2KMqIcw3TOLiv1zxKpxlnNA&s" style="width:400px" alt="Hue Imperial City">
+        </main>
+    </body>
 </html>
