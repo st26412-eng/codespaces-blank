@@ -28,5 +28,9 @@ nav a{
 
 img{
   width: 300px; 
+ font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF3B0; /* soft yellow background */
 }
 
