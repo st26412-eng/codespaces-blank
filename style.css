@@ -34,3 +34,15 @@ img{
     background-color: #FFF3B0; /* soft yellow background */
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+}
+
