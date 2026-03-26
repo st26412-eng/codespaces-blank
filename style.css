@@ -55,3 +55,14 @@ body {
     font-family: Arial, sans-serif;
     color: rgb(255, 255, 255);                 
     padding: 20px;
+<style>
+  a.vietnam-link {
+    color: darkgreen;
+    text-decoration: none;
+  }
+  
+  a.vietnam-link:hover {
+    color: rgb(255, 255, 255);
+  }
+</style>
+    
